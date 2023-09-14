@@ -1,0 +1,32 @@
+header {
+  background-color: var(--purple-lightest);
+  padding: 15px 0;
+  position: fixed;
+  inset: 0 0 auto 0;
+  z-index: 5;
+}
+
+.headerContent {
+  margin: auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.headerName {
+  font-weight: bold;
+  font-size: var(--font-large);
+  font-family: Noto Sans;
+}
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.navLinks > a {
+  text-decoration: none;
+  color: var(--purple-regular);
+  font-weight: 500;
+}
